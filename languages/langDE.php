@@ -9,7 +9,7 @@ $lang = array();
 
 //HEADER
 
-$lang['PAGE_TITLE'] = 'Bankomat/Wpłatomat';
+$lang['PAGE_TITLE'] = 'Bankomat/WpłatomatPL';
 
 $lang['MAIN_TITLE'] = 'Bankomat/Wpłatomat';
 
@@ -30,7 +30,9 @@ $lang['BUTTON_MAINPAGEBACK_CONTENT'] = 'Strona główna';
 
 //FOOTER
 
-$lang['BUTTON_SUBMIT_CONTENT'] = 'Bankomat firmy DOIT© zrób to sam';
-$lang['BUTTON_SUBMIT_CONTENT'] = '©2020 All rights reserved.';
+$lang['FOOTER_PARAGRAPH1_CONTENT'] = 'Bankomat firmy ';
+$lang['FOOTER_PARAGRAPH2_CONTENT'] = ' zrób to sam';
+$lang['COMPANY_NAME'] = 'DOIT©';
+$lang['RIGHT_RESERVED'] = '©2020 All rights reserved.';
 
 ?>
