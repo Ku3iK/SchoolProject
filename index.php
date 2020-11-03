@@ -1,15 +1,19 @@
+<?php
+    include './helpers/common.php';
+?>
+
 <!DOCTYPE html>
-<html lang="pl">
+<html lang='pl'>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <title>Bankomat/Wpłatomat</title>
+    <title><?php echo $lang['PAGE_TITLE']; ?></title>
 </head>
 <body>
     <?php 
-        include "components/header.html"
+        include "components/header.php"
     ?>
     <main>
         <form method="POST" action="subpages/loginCorrect.php" id="loginForm">
@@ -30,7 +34,7 @@
         </form>
     </main>
     <?php 
-        include "components/footer.html"
+        include "components/footer.php"
     ?>
     <script src="main.js"></script>
 </body>
