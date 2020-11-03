@@ -1,8 +1,4 @@
-<?php
-    include 'helpers/common.php';
-?>
-
 <footer>
     <p>Bankomat firmy <span>DoIt&copy</span> zrób to sam</p>
-    <p><?php echo $lang['RIGHT_RESERVED']; ?></p>
+    <p>©2020 All rights reserved.</p>
 </footer>
