@@ -9,7 +9,7 @@
 </head>
 <body>
     <?php 
-        include "../components/headerForSubpages.html"
+        include "../components/headerForSubpages.php"
     ?>
     <main class="test">
         <?php
@@ -39,7 +39,7 @@
         ?>
     </main>
     <?php 
-        include "../components/footer.html"
+        include "../components/footer.php"
     ?>
 </body>
 </html>

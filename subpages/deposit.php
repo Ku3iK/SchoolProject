@@ -9,7 +9,7 @@
 </head>
 <body>
     <?php 
-        include "../components/headerForSubpages.html"
+        include "../components/headerForSubpages.pl"
     ?>
     <main class="test">
         <h2>Wpłać</h2>
@@ -25,7 +25,7 @@
         </form>
     </main>
     <?php 
-        include "../components/footer.html"
+        include "../components/footer.pl"
     ?>
 </body>
 </html>

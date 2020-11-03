@@ -9,7 +9,7 @@
 </head>
 <body>
     <?php 
-        include "../components/headerForSubpages.html"
+        include "../components/headerForSubpages.php"
     ?>
     <main class="test">
     <?php
@@ -26,7 +26,7 @@
     <a href="../index.php" class="buttonLink"><button>Strona główna</button></a>
     </main>
     <?php 
-        include "../components/footer.html"
+        include "../components/footer.php"
     ?>
 </body>
 </html>
