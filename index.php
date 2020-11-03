@@ -21,16 +21,16 @@
                 id="cardNumber" 
                 name="cardNumber" 
                 type="number" 
-                placeholder="Numer karty"
+                placeholder=<?php echo $lang['USER_CARD_LOGIN_CONTENT']; ?>
             >
             <input 
                 id="pin" 
                 name="pin" 
                 type="number" 
-                placeholder="PIN" 
+                placeholder=<?php echo $lang['USER_PIN_LOGIN_CONTENT']; ?> 
                 style="-webkit-text-security: disc;" 
             >
-            <button id="loginSubmit" type="submit">Zatwierdź</button>
+            <button id="loginSubmit" type="submit"><?php echo $lang['BUTTON_SUBMIT_CONTENT']; ?></button>
         </form>
     </main>
     <?php 
