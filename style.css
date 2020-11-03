@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Lato', Arial, Helvetica, sans-serif;
+    font-size: 10px;
+}
+
+body {
+    background-color: #001a33;
+    color: #f6b247;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.logo img{
+    width: 10%;
+    margin: 20px auto;
+}
+
+h1 {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 4rem;
+}
+
+h2 {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 3rem;
+    margin: 20px;
+    color: #fff;
+}
+
+a {
+    text-decoration: none;
+}
+
+.operationSuccess {
+    display: inline-block;
+    font-size: 2rem;
+    margin: 20px 0;
+}
+
+button {
+    width: 15%;
+    display: block;
+    padding: 10px 25px;
+    text-transform: uppercase;
+    font-size: 1.6rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+    background-color: transparent;
+    border: 2px solid #f6b247;
+    color: #f6b247;
+    transition: .3s;
+    border-radius: 25px;
+    margin: 10px auto;
+}
+
+button:hover {
+    background-color: #f6b247;
+    color: #001a33;
+    border: 2px solid #001a33;
+}
+
+button:focus {
+    outline: 2px solid #000;
+}
+
+header,
+main,
+footer {
+    margin: 100px auto;
+    width: 100%;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+    text-align: center;
+}
+
+main form {
+    width: 50%;
+    align-self: center;
+}
+
+main form button {
+    width: 50%;
+}
+
+main form input {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 25px;
+    font-size: 2rem;
+    background-color: transparent;
+    color: #f6b247;
+    border: 2px solid #f6b247;
+}
+
+main form input::placeholder {
+    color: rgba(246, 178, 71, .4);
+}
+
+main form input:focus {
+    outline: 2px solid #000;
+}
+
+footer {
+    width: 100%;
+    text-align: center;
+}
+
+footer p {
+    font-size: 1.3rem;
+    letter-spacing: 1px;
+    padding: 5px;
+    margin: 5px auto;
+}
+
+footer p span {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
