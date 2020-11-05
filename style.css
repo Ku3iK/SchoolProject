@@ -12,6 +12,7 @@ html {
 body {
     background-color: #001a33;
     color: #f6b247;
+    overflow: hidden;
 }
 
 input::-webkit-outer-spin-button,
@@ -80,11 +81,26 @@ button:focus {
 }
 
 header,
+nav,
 main,
 footer {
     margin: 100px auto;
     width: 100%;
     text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    margin: 10px auto;
+}
+
+nav a {
+    padding: 0 10px;
+}
+
+nav a img{
+    width: 50px;
 }
 
 main {
