@@ -30,6 +30,10 @@
         $lang_file = 'langPL.php';
         break;
 
+        case 'ru':
+        $lang_file = "langRU.php";
+        break;
+
         default:
         $lang_file = 'langPL.php';
 

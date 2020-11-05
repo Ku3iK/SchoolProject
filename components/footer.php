@@ -1,4 +1,4 @@
 <footer>
-    <p>Bankomat firmy <span>DoIt&copy</span> zrób to sam</p>
-    <p>©2020 All rights reserved.</p>
+    <p><?php echo $lang['FOOTER_PARAGRAPH1_CONTENT']; ?><span><?php echo $lang['COMPANY_NAME']; ?></span><?php echo $lang['FOOTER_PARAGRAPH2_CONTENT']; ?></p>
+    <p><?php echo $lang['RIGHT_RESERVED']; ?></p>
 </footer>
