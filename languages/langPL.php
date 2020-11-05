@@ -9,7 +9,7 @@ $lang = array();
 
 //HEADER
 
-$lang['PAGE_TITLE'] = 'Bankomat/WpłatomatPL';
+$lang['PAGE_TITLE'] = 'Bankomat/Wpłatomat';
 
 $lang['MAIN_TITLE'] = 'Bankomat/Wpłatomat';
 
