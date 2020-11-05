@@ -13,10 +13,10 @@
 </head>
 <body>
     <?php 
-        include "components/header.php"
+        include "./components/header.php"
     ?>
     <main>
-        <form method="POST" action="subpages/loginCorrect.php" id="loginForm">
+        <form method="POST" action="./loginCorrect.php" id="loginForm">
             <input 
                 id="cardNumber" 
                 name="cardNumber" 
@@ -34,7 +34,7 @@
         </form>
     </main>
     <?php 
-        include "components/footer.php"
+        include "./components/footer.php"
     ?>
     <script src="main.js"></script>
 </body>
