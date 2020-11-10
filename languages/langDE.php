@@ -35,4 +35,8 @@ $lang['FOOTER_PARAGRAPH2_CONTENT'] = '&nbsp;mach&nbsp;es&nbsp;selbst';
 $lang['COMPANY_NAME'] = '&nbsp;DOIT©';
 $lang['RIGHT_RESERVED'] = '©2020&nbsp;All&nbsp;rights&nbsp;reserved.';
 
+//MESSAGES
+
+$lang['TRY_AGAIN'] = 'Versuchen&nbsp;Sie&nbsp;es&nbsp;nochmal'
+
 ?>
