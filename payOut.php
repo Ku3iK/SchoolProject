@@ -29,7 +29,11 @@
         </form>
     </main>
     <?php 
-        include "./components/footer.php"
+        include "./components/footer.php";
+        header('refresh: 20');
+        if (!isset($_COOKIE['cardNumber'])) {
+            header('location:./index.php');
+        }
     ?>
 </body>
 </html>
