@@ -7,6 +7,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="refresh" content="60;url=index.php" />
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <title><?php echo $lang['PAGE_TITLE']; ?></title>
@@ -21,8 +22,8 @@
 
             $cardNumber = $_POST['cardNumber'];
             $pin = $_POST['pin'];
-            setcookie('cardNumber', $cardNumber, time()+3600);
-            setcookie('pin', $pin, time()+3600);
+            setcookie('cardNumber', $cardNumber, time()+60);
+            setcookie('pin', $pin, time()+60);
 
             $result = checkUser($cardNumber, $pin);
 
@@ -43,7 +44,7 @@
         ?>
     </main>
     <?php 
-        include "./components/footer.php"
+        include "./components/footer.php";
     ?>
 </body>
 </html>
